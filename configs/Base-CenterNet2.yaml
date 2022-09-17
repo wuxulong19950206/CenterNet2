@@ -39,10 +39,10 @@ MODEL:
     NEG_WEIGHT: 0.5
     IGNORE_HIGH_FP: 0.85
 DATASETS:
-  TRAIN: ("coco_2017_train",)
-  TEST: ("coco_2017_val",)
+  TRAIN: ("coco_my_train",)
+  TEST: ("coco_my_val",)
 SOLVER:
-  IMS_PER_BATCH: 16
+  IMS_PER_BATCH: 4
   BASE_LR: 0.02
   STEPS: (60000, 80000)
   MAX_ITER: 90000
